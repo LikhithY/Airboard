@@ -19,7 +19,7 @@ function Search({ searchResults }) {
         <h1>  
           <Header placeholder={`${location} | ${formattedStartDate} - ${formattedEndDate} | ${noOfGuests} Guests`}/>
 
-        <main className="flex">
+        <main className="flex  max-w-7xl mx-auto">
             <section className="flex-grow pt-14 px-6">
                 <p className="text-xs">300+ stays - {range} - for {noOfGuests} guests</p>
                 <h1 className="text-3xl font-semibold mt-2 mb-6">Stays in {location}</h1>

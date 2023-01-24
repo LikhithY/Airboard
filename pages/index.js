@@ -23,8 +23,8 @@ export default function Home({ exploreData, cardsData }) {
       <main className='max-w-7xl mx-auto px-8 sm:px-16'>
 
 
-        <section className='pt-6'>
-          <h2 className='text-4xl font-semibold pb-5'>
+        <section className='border mt-10 shadow-lg rounded-xl pb-5'>
+          <h2 className='text-4xl font-semibold pt-5 pb-5 pl-3 md:pl-5 '>
             Explore Nearby
           </h2>
 
@@ -41,11 +41,11 @@ export default function Home({ exploreData, cardsData }) {
         </section>
 
 
-       <section>
-        <h2 className='text-4xl font-semibold py-8'> 
+       <section className='border mt-10 shadow-lg rounded-xl'>
+        <h2 className='text-4xl font-semibold py-4 pl-3 md:pl-5'> 
           Live Anywhere
         </h2>
-           <div className="flex space-x-3 overflow-scroll scrollbar-hide p-3 -ml-3">
+           <div className="flex space-x-3 overflow-scroll scrollbar-hide p-4 -ml-2">
            {cardsData?.map(({img, title}) => (
             <MediumCard key={img}
             img={img}

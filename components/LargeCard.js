@@ -9,7 +9,7 @@ function LargeCard({img, title, description, buttonText}) {
        <Image src={img} 
        fill
        style={{objectFit:"cover"}}
-       className="rounded-2xl"
+       className="rounded-2xl shadow-lg"
        />
     </div>
 
